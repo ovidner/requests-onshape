@@ -18,8 +18,8 @@ encoded_configuration = onshape.post(
     "elements/d/foo/e/bar/configurationencodings",
     json={
         "parameters": [
-            {"parameterId": "Height", "parameterValue": 200.0},
-            {"parameterId": "Width", "parameterValue": 20.0},
+            {"parameterId": "Height", "parameterValue": "200 mm"},
+            {"parameterId": "Width", "parameterValue": "20 mm"},
         ]
     },
 )
